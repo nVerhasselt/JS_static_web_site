@@ -1,0 +1,18 @@
+// Mixins
+  @mixin column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @mixin titleStyle($size, $weight, $color, $align){
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    text-align: $align;
+  }
+
+  @mixin contactBtn {
+    padding: 1rem;
+    border-radius: 30px;
+    background: $waterGreen;
+  }

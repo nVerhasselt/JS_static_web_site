@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Nunito&family=Open+Sans:wght@300&family=Oswald:wght@300&family=PT+Sans+Narrow&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  min-height: auto;
+  font-family: "Barlow", serif;
+}
+
+/*NAVBAR*/
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 10rem;
+  background: #212E53;
+  height: 5rem;
+  min-width: 100%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+}
+nav ul a {
+  padding: 1rem;
+  border-radius: 30px;
+  background: #BED3C3;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #212E53;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+/* Title style with the use of mixins*/
+h1 {
+  font-size: 2rem;
+  color: #212E53;
+  font-weight: 600;
+  text-align: center;
+  color: #212E53;
+  text-align: center;
+  margin-top: 3rem !important;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #CE6A6B;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #212E53;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 0rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin-top: 1rem;
+}
+
+/* Slide */
+.mySlides {
+  display: none;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #EBACA2;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #EBACA2;
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #EBACA2;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #CE6A6B;
+}
+
+/* Style of the three boxes and their contents */
+.infos {
+  background-color: #BED3C3;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  height: 450px;
+}
+
+.date {
+  color: #4A919E;
+  margin-bottom: 1rem;
+}
+
+.info-box {
+  border: 1px solid #4A919E;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: #212E53;
+  height: 5rem;
+  margin-top: 5rem;
+}
+
+.phoneMail {
+  color: #BED3C3;
+  float: inline-end;
+}
+
+a:hover {
+  color: #4A919E;
+}
+
+#print_button {
+  background-color: #212E53;
+  color: #BED3C3;
+  border: none;
+}
+
+#print_button:hover {
+  color: #4A919E;
+}/*# sourceMappingURL=ecf.css.map */
